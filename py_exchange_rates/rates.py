@@ -152,12 +152,3 @@ def graph_of_exchange_rates(valcode: str, start_date: date, end_date: date):
     plt.legend(loc="best")
 
     plt.show()
-
-
-result_nbu = get_nbu_exchange_rates("EUR", date(day=20, month=4, year=2022), date(day=24, month=4, year=2022))
-result_pb = get_pb_exchange_rates("EUR", date(day=20, month=4, year=2022), date(day=24, month=4, year=2022))
-print(result_nbu)
-print(result_pb)
-
-
-graph_of_exchange_rates("EUR", date(day=20, month=4, year=2022), date(day=24, month=4, year=2022))
