@@ -18,7 +18,7 @@ setup(
     long_description_content_type="text/markdown",
 
     packages=find_packages(),
-    install_requires=["requests"],
+    install_requires=["requests", "matplotlib"],
 
     project_urls={
         "Source": "https://github.com/Smigy32/py_exchange_rates",
